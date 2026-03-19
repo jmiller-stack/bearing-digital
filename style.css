@@ -88,9 +88,26 @@ section { padding: 96px 0; }
   color: var(--white);
   text-decoration: none;
   letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
-.nav__logo span { color: var(--bright); }
+.nav__logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.nav__logo-brand { color: var(--bright); }
+
+.nav__logo-tagline {
+  font-size: 0.65rem;
+  font-style: italic;
+  font-weight: 400;
+  color: rgba(255,255,255,0.55);
+  letter-spacing: 0.01em;
+}
 
 .nav__links {
   display: flex;
@@ -154,14 +171,7 @@ section { padding: 96px 0; }
   margin-right: 6px;
 }
 
-.hero__tagline {
-  font-size: 1.15rem;
-  font-style: italic;
-  color: var(--bright);
-  margin: -0.5rem 0 1rem;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
+
 
 .hero__tag {
   display: inline-block;
