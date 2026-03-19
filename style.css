@@ -99,7 +99,7 @@ section { padding: 96px 0; }
   line-height: 1.1;
 }
 
-.nav__logo-name { display: block; }
+.nav__logo-name { display: block; white-space: nowrap; }
 .nav__logo-brand { color: var(--bright); }
 
 .nav__logo-tagline {
