@@ -146,6 +146,15 @@ section { padding: 96px 0; }
   align-items: center;
 }
 
+.hero__tagline {
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--bright);
+  margin: -0.5rem 0 1rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
 .hero__tag {
   display: inline-block;
   background: rgba(45,156,219,0.18);
