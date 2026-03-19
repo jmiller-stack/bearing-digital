@@ -146,6 +146,14 @@ section { padding: 96px 0; }
   align-items: center;
 }
 
+.nav__logo-img {
+  height: 32px;
+  width: 32px;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
 .hero__tagline {
   font-size: 1.15rem;
   font-style: italic;
